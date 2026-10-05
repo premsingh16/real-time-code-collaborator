@@ -1,5 +1,5 @@
 const Code = require('../models/Code');
-const { executeCode } = require('../services/pistonService');
+const { executeCode } = require('../services/wandboxService');
 
 const compileCode = async (req, res, next) => {
   try {
